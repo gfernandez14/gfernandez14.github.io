@@ -1,0 +1,86 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 45px;
+  background-color: lightcyan;
+}
+/*Barra horizontal*/
+header {
+  display: flex;
+  min-height: 100px;
+  background-color: indianred;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  word-spacing: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 75px;
+  margin-right: 10px;
+}
+div.menu-item {
+  display: block;
+  color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* Barra lateral*/
+.sidebar {
+  background-color: indianred;
+  float: left;
+  height: 500px;
+  margin-top: 30px;
+  width: 13%;
+  margin-bottom: 13%;
+}
+
+.sidebar div {
+  padding: 10px;
+}
+img.yo {
+  width: 100%;
+}
+section.courses {
+  float: left;
+  margin-left: 5%;
+  width: 80%;
+  margin-top: 10%;
+}
+h3{
+  letter-spacing: normal;
+  text-align: center;
+  text-shadow: gray 2px 0;
+  text-transform:uppercase;
+  text-indent: 10px;
+}
+.course {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1em;
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+  background-color: linen;
+}
+
+footer {
+  background-color: lightgrey;
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+a:hover {
+  color: darkblue;
+}
