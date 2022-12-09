@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/stylecont.css" />
+  <title>Contacto</title>
+</head>
+
+<body>
+  <!--Encabezado-->
+  <header>
+    <a href="/html/Inicio.html" class="logo" target="_blank">
+      <img src="/img/Logo.png" alt="">
+      <h2 class="nombre-web">German Fernandez Balboa
+      </h2>
+    </a>
+    <nav>
+      <a href="/html/Inicio.html" class="nav-link" target="_blank">Inicio</a>
+      <a href="/html/Curriculum.html" class="nav-link" target="_blank">Curriculum</a>
+      <a href="/html/Contacto.html" class="nav-link" target="_blank">Contacto</a>
+      <a href="/html/Proyecto.html" class="nav-link" target="_blank">Proyecto</a>
+    </nav>
+  </header>
+  <!--Barra lateral-->
+  <div class="sidebar">
+    <div class="menu-item">
+      <img src="/img/Yo.jpeg" alt="yo" class="yo" />
+    </div>
+    <div class="menu-item">
+      <a href="mailto:gerfer@outlook.es"> gerfer@outlook.es</a>
+    </div>
+    <div class="menu-item">
+      Tlf:684001490
+    </div>
+    <div class="menu-item">
+      <a href="https://twitter.com/gerferb96" target="_blank">
+        Twitter: gerferb96</a>
+    </div>
+    <div class="menu-item">
+      <a href="https://github.com/gfernandez14" target="_blank">
+        GitHub
+      </a>
+    </div>
+  </div>
+  <!--Contenido-->
+  <div class="contenido">
+    <main>
+      <article>
+        <h2>Cuestionario para el proyecto.</h2>
+        <section class="courses">
+          <div class="course">
+            <article>
+              <h3>Le ha gustado la pagina web?</h3>
+              
+              <fieldset>
+                <legend>Datos personales</legend>
+                <form>
+                  Nombre<br>
+                  <input type="text" name="nombre"><br>
+                  Apellidos<br>
+                  <input type="text" name="apelidos"><br><br>
+                  Email<br>
+                  <input type="number" name="email"><br>
+                  Telefono<br>
+                  <input type="text" name="telefono"><br><br>
+                  Nacimiento
+                  <input type="date" name="Nacimiento">
+                  <input type="submit" value="Confirmar">
+                </form>
+                <br><br>
+                De donde me visitas?
+                <select>
+                  <option>Madrid</option>
+                  <option>Alicante</option>
+                  <option>Sevilla</option>
+                  <option>Barcelona</option>
+                  <option>Valencia</option>
+                </select>
+                <br><br>
+                <button type="submit">
+                  Confirmar
+                </button>
+                <button type="reset">
+                  Borrar
+                </button>
+              </fieldset>
+            </article>
+            <h4>Si tiene alguna duda, contacteme.</h4>
+            <form>
+              <fieldset>
+                <legend>Otros datos relevanes</legend>
+                Que lenguaje es su favorito?
+                <br>
+                <label><input type="checkbox" name="Html">Html</label><br>
+                <label><input type="checkbox" name="css">Css</label><br>
+                <label><input type="checkbox" name="javascript">Javasript</label><br>
+                <label><input type="checkbox" name="Python">Python</label><br>
+
+                <label>Grado de satisfaccion de la pagina web (0 el mas bajo, 10 el mas alto)</label>
+                <br>
+                0<input type="range" min="0" max="10">10
+                <br><br>
+                Comentarios
+                <br>
+                <textarea name="mensaje" cols="30" rows="7">Tiene alguna sugerencia?</textarea>
+
+              </fieldset>
+            </form>
+            </div>
+          </section>
+      </article>
+    </main>
+  </div>
+  <footer>German Fernandez Balboa SMR2C 2022-2023</footer>
+</body>
+
+
+</html>
